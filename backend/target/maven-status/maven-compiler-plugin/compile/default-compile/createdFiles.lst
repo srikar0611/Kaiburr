@@ -1,0 +1,16 @@
+com\kaiburr\taskmanager\security\JwtUtil.class
+com\kaiburr\taskmanager\dto\AuthResponse.class
+com\kaiburr\taskmanager\security\JwtFilter.class
+com\kaiburr\taskmanager\controller\TaskController.class
+com\kaiburr\taskmanager\TaskManagerApplication.class
+com\kaiburr\taskmanager\dto\AuthRequest.class
+com\kaiburr\taskmanager\security\CustomUserDetailsService.class
+com\kaiburr\taskmanager\controller\AuthController.class
+com\kaiburr\taskmanager\model\User.class
+com\kaiburr\taskmanager\repository\TaskRepository.class
+com\kaiburr\taskmanager\security\SecurityConfig.class
+com\kaiburr\taskmanager\security\CustomUserDetails.class
+com\kaiburr\taskmanager\model\TaskExecution.class
+com\kaiburr\taskmanager\model\Task.class
+com\kaiburr\taskmanager\repository\UserRepository.class
+com\kaiburr\taskmanager\service\AuthService.class

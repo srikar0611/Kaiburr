@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: taskmanager-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: taskmanager-backend
+  template:
+    metadata:
+      labels:
+        app: taskmanager-backend
+    spec:
+      containers:
+        - name: taskmanager-backend
+          image: srikarmuraboyina/taskmanager-backend:latest
+          ports:
+            - containerPort: 9090
+          env:
+            - name: MONGO_URI
+              value: "mongodb://mongo:27017/taskdb"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: taskmanager-backend
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 9090
+  selector:
+    app: taskmanager-backend

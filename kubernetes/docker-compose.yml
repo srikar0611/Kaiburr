@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  backend:
+    image: srikarmuraboyina/taskmanager-backend
+    ports:
+      - "9090:9090"
+    environment:
+      - SPRING_DATA_MONGODB_URI=mongodb://mongo:27017/taskmanager
+    depends_on:
+      - mongo
+    restart: always
+
+  frontend:
+    image: srikarmuraboyina/taskmanager-frontend
+    ports:
+      - "80:3000"
+    depends_on:
+      - backend
+    restart: always
+
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+    restart: always

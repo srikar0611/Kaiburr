@@ -1,0 +1,16 @@
+C:\Users\srika\kaiburr-assessment-2025\backend\src\main\java\com\kaiburr\taskmanager\dto\AuthResponse.java
+C:\Users\srika\kaiburr-assessment-2025\backend\src\main\java\com\kaiburr\taskmanager\dto\AuthRequest.java
+C:\Users\srika\kaiburr-assessment-2025\backend\src\main\java\com\kaiburr\taskmanager\controller\AuthController.java
+C:\Users\srika\kaiburr-assessment-2025\backend\src\main\java\com\kaiburr\taskmanager\security\CustomUserDetails.java
+C:\Users\srika\kaiburr-assessment-2025\backend\src\main\java\com\kaiburr\taskmanager\controller\TaskController.java
+C:\Users\srika\kaiburr-assessment-2025\backend\src\main\java\com\kaiburr\taskmanager\security\JwtUtil.java
+C:\Users\srika\kaiburr-assessment-2025\backend\src\main\java\com\kaiburr\taskmanager\TaskManagerApplication.java
+C:\Users\srika\kaiburr-assessment-2025\backend\src\main\java\com\kaiburr\taskmanager\model\Task.java
+C:\Users\srika\kaiburr-assessment-2025\backend\src\main\java\com\kaiburr\taskmanager\service\AuthService.java
+C:\Users\srika\kaiburr-assessment-2025\backend\src\main\java\com\kaiburr\taskmanager\security\JwtFilter.java
+C:\Users\srika\kaiburr-assessment-2025\backend\src\main\java\com\kaiburr\taskmanager\model\TaskExecution.java
+C:\Users\srika\kaiburr-assessment-2025\backend\src\main\java\com\kaiburr\taskmanager\repository\TaskRepository.java
+C:\Users\srika\kaiburr-assessment-2025\backend\src\main\java\com\kaiburr\taskmanager\security\CustomUserDetailsService.java
+C:\Users\srika\kaiburr-assessment-2025\backend\src\main\java\com\kaiburr\taskmanager\repository\UserRepository.java
+C:\Users\srika\kaiburr-assessment-2025\backend\src\main\java\com\kaiburr\taskmanager\security\SecurityConfig.java
+C:\Users\srika\kaiburr-assessment-2025\backend\src\main\java\com\kaiburr\taskmanager\model\User.java
